@@ -1,0 +1,19 @@
+
+#signup{
+    background-color: transparent !important;
+    border-color: rgb(255, 255, 255) !important;
+    border: 2px solid !important;
+    
+}
+
+#signup:hover {
+    background: #fff !important;
+    color: #3b86ff !important;
+    border-color: rgb(255, 255, 255) !important;
+    outline: none;
+    cursor: pointer;
+}
+.btn{
+    text-align: center;
+}
+
