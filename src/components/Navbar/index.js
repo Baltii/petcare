@@ -35,7 +35,7 @@ const Navbar = () => {
                 </NavLink>
             </NavMenu>
             <NavBtn>
-                <NavBtnLink to="/signup" className='btn' id='signup'>Sign Up</NavBtnLink>
+                <NavBtnLink to="/Register" className='btn' id='signup'>Sign Up</NavBtnLink>
                 <NavBtnLink to="/Login" className='btn' style={{marginLeft: '10px'}}>Login</NavBtnLink>
             </NavBtn>
         </Nav>

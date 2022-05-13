@@ -9,8 +9,12 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Boarding from './pages/Boarding';
 import Services from './pages/Services';
+import Register from './pages/Signup';
+
+
 
 function App() {
+
   return (
     <Router>
       <Routes>
@@ -21,9 +25,9 @@ function App() {
         <Route path='/About' element={<About />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/Login' element={<Login />} />
+        <Route path='/Register' element={<Register />} />
         <Route path='/Boarding' element={<Boarding />} />
       </Routes>
-      
     </Router>
   );
 }
