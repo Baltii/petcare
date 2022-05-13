@@ -1,0 +1,32 @@
+#Benefits-img {
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.941),rgba(255, 255, 255, 0)), url("../../../images/cover.png");
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 80px 50px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  #Benefits-img .Benefits-text {
+    display: flex;
+    flex-direction: column;
+    
+
+    color: rgb(0, 0, 0);
+  }
+  #Benefits-img .row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+  }
+  #Benefits-img .row img{
+    margin-right: 20px;
+    
+  }

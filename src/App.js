@@ -7,12 +7,12 @@ import Contact from './pages/Contact';
 import Features from './pages/Features';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Boarding from './pages/Boarding';
 import Services from './pages/Services';
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='/Home' element={<Home />} />
@@ -21,7 +21,9 @@ function App() {
         <Route path='/About' element={<About />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/Login' element={<Login />} />
+        <Route path='/Boarding' element={<Boarding />} />
       </Routes>
+      
     </Router>
   );
 }

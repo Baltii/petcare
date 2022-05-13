@@ -1,6 +1,6 @@
 import React from 'react';
 import {RiSearchLine} from "react-icons/ri";
-import '../../components/Navbar/Navbar.css';
+import '../../components/NavbarService/NavbarService.css';
 import logo from "../../images/logo.svg";
 import {Link} from "react-router-dom";
 export const NavbarService = () => {
@@ -9,9 +9,9 @@ export const NavbarService = () => {
       <Link to="/"><img src={logo} alt='logo'/></Link>
       <div className="NavMenu">
       <ul>
-        <li><Link to="/">Our Services</Link></li>
-        <li><Link to="/">Become a Pet Sitter</Link></li>
-        <li><Link to="/">Request Service</Link></li>
+        <li><Link to="/Boarding">Our Services</Link></li>
+        <li><Link to="/DogWalking">Become a Pet Sitter</Link></li>
+        <li><Link to="/PetTraining">Request Service</Link></li>
       </ul>
       </div>
       <div  className="NavBtn">

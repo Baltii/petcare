@@ -1,0 +1,72 @@
+#HowWorks {
+    color: black;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    padding: 0px 140px 0px 140px;
+    font-weight: 400;
+    line-height: 200%;
+  }
+
+
+  :root {
+    --background:#F1F1F1;
+    --main-color:#4589EF;
+    --white:#FFFFFF;
+    --black:#262626;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#HowWorks .card {
+    display:flex;
+    flex-direction: row;
+    padding-top:50px;
+    width: 100vw;
+    padding: 0px 140px 0px 140px;
+    align-items: center;
+    justify-content: space-between;
+}
+#HowWorks .cardService-icon {
+    width:150px;
+    height:150px;
+    border-radius:100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#HowWorks .cardService-icon img {
+    width: 123px;
+    height: 123px;
+}
+.cardService{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 260px;
+    height: 330px;
+}
+#HowWorks .cardService-text h4 {
+    margin-top: 38px;
+    margin-bottom: 24px;
+    color:var(--black);
+    font-weight: bold;
+    font-size: 30px;
+}
+#HowWorks .cardService-text p {
+    color:#737373;
+    height: 130px;
+    line-height: 26px;
+    font-size: 20px;
+}

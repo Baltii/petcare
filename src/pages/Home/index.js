@@ -7,7 +7,7 @@ import Navbar from '../../components/Navbar';
 const Home = () => {
   return (
     <div id='cover'>
-      
+      <Navbar />
       <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
         <div style={{width: '600px', textAlign: 'center', marginTop: '-100px'}}>
         <h1 id='title'>Make your pet feel Safe and Happy</h1>
