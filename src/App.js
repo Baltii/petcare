@@ -10,6 +10,7 @@ import Login from './pages/Login';
 import Boarding from './pages/Boarding';
 import Services from './pages/Services';
 import Register from './pages/Signup';
+import CreatePost from './Layout/createPost/createPost';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/Login' element={<Login />} />
         <Route path='/Register' element={<Register />} />
         <Route path='/Boarding' element={<Boarding />} />
+        <Route path='/CreatePost' element={<CreatePost />} />
       </Routes>
     </Router>
   );

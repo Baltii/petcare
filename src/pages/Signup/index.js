@@ -16,7 +16,7 @@ function Register() {
     const navigate = useNavigate();
     const register = () => {
       if (!name) alert("Please enter name");
-      signup(name, email, password, confirmPassword);
+      signup(name, email, password);
     };
     useEffect(() => {
       if (loading) return;
@@ -50,8 +50,11 @@ function Register() {
             type="password"
             className="register__textBox"
             value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
+            onChange={
+                (e) => setConfirmPassword(e.target.value)
+            }
             placeholder="Confirm Password"
+            
           />
           <button className="register__btn" onClick={register}>
             Register
