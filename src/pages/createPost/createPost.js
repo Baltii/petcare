@@ -28,10 +28,13 @@ function CreatePost({ isAuth }) {
 
   useEffect(() => {
     if (!isAuth) {
-      navigate("/Login");
+     // navigate("/Login");
+
     }
   }, []);
 
+  const au = async () => await auth.currentUser;
+  console.log(au);
   return (
       <>
       
@@ -41,7 +44,7 @@ function CreatePost({ isAuth }) {
         <div className="inputGp">
           <label> Full Name</label>
           <input
-          value={auth.currentUser.uid}
+          value={auth.currentUser}
             placeholder="Full Name"
             // onChange={(e) => {
             //   setTitle(e.target.value);
@@ -58,10 +61,40 @@ function CreatePost({ isAuth }) {
             }}
           />
         </div>
+        <div className="inputGp">
+          <label> Adress</label>
+          <input
+            type="text"
+            value={adress}
+            onChange={(e) => {
+              setAdress(e.target.value);
+            }}
+          />
+          </div>
+          <div className="inputGp">
+          <label> City</label>
+          <input
+            type="text"
+            value={adress}
+            onChange={(e) => {
+              setAdress(e.target.value);
+            }}
+          />
+          </div>
+          <div className="inputGp">
+          <label> Zip</label>
+          <input
+            type="number"
+            value={zip}
+            onChange={(e) => {
+              setZip(e.target.value);
+            }}
+          />
+          </div>
         <button onClick={addUserDetails}> Next </button>
       </div>
     </div>
-      </>
+    </>
   );
 }
 

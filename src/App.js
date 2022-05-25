@@ -10,7 +10,7 @@ import Login from './pages/Login';
 import Boarding from './pages/Boarding';
 import Services from './pages/Services';
 import Register from './pages/Signup';
-import CreatePost from './Layout/createPost/createPost';
+import CreatePost from './pages/createPost/createPost';
 
 
 

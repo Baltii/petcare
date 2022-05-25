@@ -38,7 +38,7 @@ const Navbar = () => {
     var loginButton;
     if (user) {
         loginButton = <><NavBtnLink to="/" className='btn' id='signup'>{name}</NavBtnLink>
-        <NavBtnLink to="/Login" className='btn' style={{marginLeft: '10px', width: 'auto'}} onClick={logout}>Log out</NavBtnLink>; </>
+        <NavBtnLink to="/Login" className='btn' style={{marginLeft: '10px', width: 'auto'}} onClick={logout}>Log out</NavBtnLink> </>
     } else {
         loginButton = <><NavBtnLink to="/Register" className='btn' id='signup'>Sign Up</NavBtnLink>
         <NavBtnLink to="/Login" className='btn' style={{marginLeft: '10px'}}>Login</NavBtnLink>; </>
