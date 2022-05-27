@@ -41,7 +41,7 @@ const Navbar = () => {
         <NavBtnLink to="/Login" className='btn' style={{marginLeft: '10px', width: 'auto'}} onClick={logout}>Log out</NavBtnLink> </>
     } else {
         loginButton = <><NavBtnLink to="/Register" className='btn' id='signup'>Sign Up</NavBtnLink>
-        <NavBtnLink to="/Login" className='btn' style={{marginLeft: '10px'}}>Login</NavBtnLink>; </>
+        <NavBtnLink to="/Login" className='btn' style={{marginLeft: '10px'}}>Login</NavBtnLink></>
     }
 
   return (

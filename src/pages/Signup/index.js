@@ -51,8 +51,7 @@ function Register() {
             className="register__textBox"
             value={confirmPassword}
             onChange={
-                (e) => setConfirmPassword(e.target.value)
-            }
+                (e) => setConfirmPassword(e.target.value)}
             placeholder="Confirm Password"
             
           />
