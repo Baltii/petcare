@@ -11,6 +11,7 @@ import Boarding from './pages/Boarding';
 import Services from './pages/Services';
 import Register from './pages/Signup';
 import CreatePost from './pages/createPost/createPost';
+import SecondForm from './pages/createPost/secondForm';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path='/Register' element={<Register />} />
         <Route path='/Boarding' element={<Boarding />} />
         <Route path='/CreatePost' element={<CreatePost />} />
+        <Route path='/SecondForm' element={<SecondForm />} />
       </Routes>
     </Router>
   );
